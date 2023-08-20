@@ -20,21 +20,52 @@ width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #5c5470;
     color: white;
 }
 
-h1{
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: #504470 28px 12px 20px;
+}
+
+img{
+    width: 10vmax;
+}
+
+#heading>h1{
     font-size: 2vmax;
+}
+
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
     padding: 40px;
     color: #5c5470;
     margin: 20px;
-    font-size: 120px;
+    font-size: 2vmax;
     border-radius: 10px;
     cursor: pointer;
+}
+
+button:hover{
+    color:white;
+    background-color: #504470;
+}
+
+#main>h3{
+    margin: 20px;
 }
