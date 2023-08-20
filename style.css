@@ -1,0 +1,40 @@
+@font-face {
+    font-family: gilroy;
+    src: url('Gilroy-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+ 
+html,body{
+height: 100%;
+width: 100%;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #5c5470;
+    color: white;
+}
+
+h1{
+    font-size: 2vmax;
+}
+
+button{
+    padding: 40px;
+    color: #5c5470;
+    margin: 20px;
+    font-size: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+}
